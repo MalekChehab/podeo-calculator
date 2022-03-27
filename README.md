@@ -51,7 +51,7 @@ Future<String?> signIn(String email, String password) async {
       }
   }
 ```
-Calculation model that 
+Calculation model for database
 ```dart
 @HiveType(typeId: 0)
 class Calculation extends HiveObject{
